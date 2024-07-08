@@ -130,7 +130,7 @@ Przyśpieszenie całkowite i algorytmiczne dla języka Rust względem JavaScript
 # Wyniki badań
 Enkodowanie do Base64
 
-<img src="assets/base64.png" class="h-64 mx-auto object-contain" />
+<img src="/base64.png" class="h-64 mx-auto object-contain" />
 
 <div class="flex justify-around">
   <div>
@@ -154,7 +154,7 @@ Enkodowanie do Base64
 # Wyniki badań
 Wyliczanie k-tej liczby Fibonacciego rekurencyjnie
 
-<img src="assets/fib.png" class="h-64 mx-auto object-contain" />
+<img src="/fib.png" class="h-64 mx-auto object-contain" />
 
 <div class="flex justify-around">
   <div>
@@ -173,7 +173,7 @@ Wyliczanie k-tej liczby Fibonacciego rekurencyjnie
 # Wyniki badań
 Mnożenie macierzy 4x4
 
-<img src="assets/mat.png" class="h-64 mx-auto object-contain" />
+<img src="/mat.png" class="h-64 mx-auto object-contain" />
 
 <div class="flex justify-around">
   <div>
@@ -200,7 +200,7 @@ Mnożenie macierzy 4x4
 # Wyniki badań
 Wyliczanie sumy CRC-32
 
-<img src="assets/crc32.png" class="h-64 mx-auto object-contain" />
+<img src="/crc32.png" class="h-64 mx-auto object-contain" />
 
 <div class="flex justify-around">
   <div>
@@ -219,7 +219,7 @@ Wyliczanie sumy CRC-32
 # Wyniki badań
 Wyliczanie sumy CRC-64
 
-<img src="assets/crc64.png" class="h-64 mx-auto object-contain" />
+<img src="/crc64.png" class="h-64 mx-auto object-contain" />
 
 <div class="flex justify-around">
   <div>
@@ -247,7 +247,7 @@ Wyliczanie sumy CRC-64
 # Wyniki badań
 API DOM --- Tworzenie elementów
 
-<img src="assets/domc.png" class="h-64 mx-auto object-contain" />
+<img src="/domc.png" class="h-64 mx-auto object-contain" />
 
 <div class="flex justify-around">
   <div>
@@ -265,7 +265,7 @@ API DOM --- Tworzenie elementów
 # Wyniki badań
 API DOM --- Aktualizacja co drugiego elementu
 
-<img src="assets/domu.png" class="h-64 mx-auto object-contain" />
+<img src="/domu.png" class="h-64 mx-auto object-contain" />
 
 <div class="flex justify-around">
   <div>
@@ -283,7 +283,7 @@ API DOM --- Aktualizacja co drugiego elementu
 # Wyniki badań
 API DOM --- Usuwanie elementów
 
-<img src="assets/domr.png" class="h-64 mx-auto object-contain" />
+<img src="/domr.png" class="h-64 mx-auto object-contain" />
 
 <div class="flex justify-around">
   <div>
