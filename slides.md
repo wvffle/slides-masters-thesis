@@ -80,6 +80,8 @@ Przeglądarka:
 - Badane w każdym teście funkcje były wykonywane sekwencyjnie, a przed pierwszym wywołaniem każdej funkcji (dla każdego podtestu oraz każdego $n$), karta przeglądarki była odświeżana.
 - Wszystkie funkcje w Języku Rust zostały przetestowane na trzech profilach optymalizacyjnych kompilatora.
 
+Sumarycznie zbadałem wydajność 291 pojedynczych funkcji i wygenerowałem ponad 109 MB danych.
+
 ---
 
 # Pomiary
@@ -99,12 +101,18 @@ Ponieważ dane przekazywane do funkcji skompilowanej w WebAssembly mogą wymaga�
 
 # Pomiary (c.d.)
 
-## JavaScript
+### JavaScript
+Czas algorytmu:
 - $T_{A_{JS}} = T_{JS_2} - T_{JS_1}$
 
-## Rust
+### Rust
+Czas deserializacji:
 - $T_{D_{RS}} = T_{RS_2} - T_{RS_1}$
+
+Czas algorytmu:
 - $T_{A_{RS}} = T_{RS_3} - T_{RS_2}$
+
+Czas serializacji:
 - $T_{S_{RS}} = T_{RS_4} - T_{RS_3}$
 
 ---
@@ -147,6 +155,14 @@ Enkodowanie do Base64 (1MB)
   - $S_C =  7.5536$
   - $S_A = 67.5786$
   </div>
+
+  <div>
+
+  dla $F_2$ i $F_4$:
+  - $S_C = 0.3035$
+  - $S_A = 2.7037$
+  </div>
+
 </div>
 
 ---
