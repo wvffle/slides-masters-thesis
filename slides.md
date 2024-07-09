@@ -78,7 +78,7 @@ Przeglądarka:
 - Dane wejściowe były losowo generowane przed rozpoczęciem pomiaru czasu wykonania funkcji.
 - Każdy podtest był wykonany dla trzech różnych ilości powtórzeń oznaczonych symbolem $n$.
 - Badane w każdym teście funkcje były wykonywane sekwencyjnie, a przed pierwszym wywołaniem każdej funkcji (dla każdego podtestu oraz każdego $n$), karta przeglądarki była odświeżana.
-- Wszystkie funkcje w Języku Rust zostały przetestowane na trzech profilach optymalizacyjnych kompilatora, które zostały opisane w tabeli .
+- Wszystkie funkcje w Języku Rust zostały przetestowane na trzech profilach optymalizacyjnych kompilatora.
 
 ---
 
@@ -112,7 +112,7 @@ Ponieważ dane przekazywane do funkcji skompilowanej w WebAssembly mogą wymaga�
 # Metryki porównawcze
 <div></div>
 
-Średni czas wykonania algorytmu:
+Czas wykonania algorytmu:
 - $\overline{T}_{A_{RS}}$ i $\overline{T}_{A_{JS}}$
 
 Całkowity czas wykonania funkcji:
@@ -128,7 +128,7 @@ Przyśpieszenie całkowite i algorytmiczne dla języka Rust względem JavaScript
 ---
 
 # Wyniki badań
-Enkodowanie do Base64
+Enkodowanie do Base64 (1MB)
 
 <img src="/base64.png" class="h-64 mx-auto object-contain" />
 
@@ -152,7 +152,7 @@ Enkodowanie do Base64
 ---
 
 # Wyniki badań
-Wyliczanie k-tej liczby Fibonacciego rekurencyjnie
+Wyliczanie 40-tej liczby Fibonacciego rekurencyjnie
 
 <img src="/fib.png" class="h-64 mx-auto object-contain" />
 
@@ -198,7 +198,7 @@ Mnożenie macierzy 4x4
 ---
 
 # Wyniki badań
-Wyliczanie sumy CRC-32
+Wyliczanie sumy CRC-32 (1MB)
 
 <img src="/crc32.png" class="h-64 mx-auto object-contain" />
 
@@ -217,7 +217,7 @@ Wyliczanie sumy CRC-32
 ---
 
 # Wyniki badań
-Wyliczanie sumy CRC-64
+Wyliczanie sumy CRC-64 (1MB)
 
 <img src="/crc64.png" class="h-64 mx-auto object-contain" />
 
@@ -245,7 +245,7 @@ Wyliczanie sumy CRC-64
 ---
 
 # Wyniki badań
-API DOM --- Tworzenie elementów
+API DOM --- Tworzenie elementów (10000)
 
 <img src="/domc.png" class="h-64 mx-auto object-contain" />
 
@@ -263,7 +263,7 @@ API DOM --- Tworzenie elementów
 ---
 
 # Wyniki badań
-API DOM --- Aktualizacja co drugiego elementu
+API DOM --- Aktualizacja co drugiego elementu (10000)
 
 <img src="/domu.png" class="h-64 mx-auto object-contain" />
 
@@ -281,7 +281,7 @@ API DOM --- Aktualizacja co drugiego elementu
 ---
 
 # Wyniki badań
-API DOM --- Usuwanie elementów
+API DOM --- Usuwanie elementów (100)
 
 <img src="/domr.png" class="h-64 mx-auto object-contain" />
 
